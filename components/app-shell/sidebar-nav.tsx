@@ -212,8 +212,7 @@ function OperatorCard({
         Operator Mode
       </p>
       <p className="mt-2 text-sm text-white/80">
-        {session} mengelola checkout paket data melalui layanan transaksi
-        json-server.
+        {session} mengelola checkout paket data melalui layanan transaksi.
       </p>
       <Button
         className="mt-4 w-full border-white/20 text-white hover:bg-white/10"

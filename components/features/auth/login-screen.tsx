@@ -37,8 +37,7 @@ export function LoginScreen({
               tim operasional.
             </h1>
             <p className="mt-5 max-w-2xl text-base leading-7 text-white/70">
-              Kelola customer management, katalog paket, dan transaksi melalui
-              endpoint json-server.
+              Kelola customer management, katalog paket, dan transaksi melalui aplikasi.
             </p>
           </div>
 
@@ -103,11 +102,6 @@ export function LoginScreen({
               )}
               Login
             </Button>
-
-            <div className="mt-6 rounded-md border border-[#d8dfd7] bg-[#f7faf7] p-4 text-xs leading-5 text-[#5c6963]">
-              Jalankan <strong>npm run api</strong> untuk mengaktifkan layanan
-              transaksi di <strong>{API_BASE_URL}</strong>.
-            </div>
 
             <div className="mt-4 grid grid-cols-3 gap-2 text-center text-[11px] font-semibold uppercase tracking-[0.08em] text-[#5c6963] lg:hidden">
               <span className="rounded-md border border-[#d8dfd7] bg-[#f7faf7] px-2 py-2">

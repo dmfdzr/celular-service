@@ -110,7 +110,7 @@ export default function Page() {
     event.preventDefault()
     setSaving(true)
     await new Promise((resolve) => window.setTimeout(resolve, 450))
-    setSession("Dimas Admin")
+    setSession("Admin")
     setSaving(false)
   }
 
