@@ -1,0 +1,203 @@
+{
+  "customers": [
+    {
+      "id": "cust-001",
+      "name": "Ayu Larasati",
+      "email": "ayu.larasati@example.com",
+      "phone": "081234567890",
+      "segment": "Gold",
+      "status": "active",
+      "city": "Jakarta",
+      "monthlySpend": 265000
+    },
+    {
+      "id": "cust-002",
+      "name": "Rizky Pratama",
+      "email": "rizky.pratama@example.com",
+      "phone": "082145678901",
+      "segment": "Silver",
+      "status": "active",
+      "city": "Bandung",
+      "monthlySpend": 439000
+    },
+    {
+      "id": "cust-003",
+      "name": "Nadia Putri",
+      "email": "nadia.putri@example.com",
+      "phone": "085312349876",
+      "segment": "Platinum",
+      "status": "active",
+      "city": "Surabaya",
+      "monthlySpend": 410000
+    },
+    {
+      "id": "cust-004",
+      "name": "Fajar Hidayat",
+      "email": "fajar.hidayat@example.com",
+      "phone": "089876543210",
+      "segment": "Bronze",
+      "status": "suspended",
+      "city": "Yogyakarta",
+      "monthlySpend": 68000
+    },
+    {
+      "name": "bzar",
+      "email": "bzar@mail.com",
+      "phone": "0859584737",
+      "city": "Here",
+      "segment": "Silver",
+      "status": "active",
+      "monthlySpend": 0,
+      "id": "aC9scgGXTNA"
+    }
+  ],
+  "packages": [
+    {
+      "id": "pkg-001",
+      "name": "Flash Daily 5GB",
+      "operator": "Telkomsel",
+      "quota": "5GB",
+      "validity": "1 Hari",
+      "price": 18000,
+      "speed": "4G/5G",
+      "tag": "Instan",
+      "popular": false
+    },
+    {
+      "id": "pkg-002",
+      "name": "Freedom 20GB",
+      "operator": "Indosat",
+      "quota": "20GB",
+      "validity": "30 Hari",
+      "price": 68000,
+      "speed": "4G",
+      "tag": "Best Value",
+      "popular": true
+    },
+    {
+      "id": "pkg-003",
+      "name": "Xtra Combo 35GB",
+      "operator": "XL",
+      "quota": "35GB",
+      "validity": "30 Hari",
+      "price": 98000,
+      "speed": "4G/5G",
+      "tag": "Streaming",
+      "popular": true
+    },
+    {
+      "id": "pkg-004",
+      "name": "AlwaysOn 12GB",
+      "operator": "Tri",
+      "quota": "12GB",
+      "validity": "30 Hari",
+      "price": 52000,
+      "speed": "4G",
+      "tag": "Hemat",
+      "popular": false
+    },
+    {
+      "id": "pkg-005",
+      "name": "Smart Unlimited Lite",
+      "operator": "Smartfren",
+      "quota": "Unlimited",
+      "validity": "28 Hari",
+      "price": 76000,
+      "speed": "4G",
+      "tag": "Unlimited",
+      "popular": true
+    },
+    {
+      "id": "pkg-006",
+      "name": "Axis Warnet 8GB",
+      "operator": "Axis",
+      "quota": "8GB",
+      "validity": "7 Hari",
+      "price": 24000,
+      "speed": "4G",
+      "tag": "Gaming",
+      "popular": false
+    }
+  ],
+  "transactions": [
+    {
+      "id": "trx-001",
+      "customerId": "cust-003",
+      "customerName": "Nadia Putri",
+      "msisdn": "085312349876",
+      "packageId": "pkg-003",
+      "packageName": "Xtra Combo 35GB",
+      "operator": "XL",
+      "price": 98000,
+      "status": "success",
+      "channel": "Web Checkout",
+      "createdAt": "2026-05-25T15:10:00.000Z"
+    },
+    {
+      "id": "trx-002",
+      "customerId": "cust-001",
+      "customerName": "Ayu Larasati",
+      "msisdn": "081234567890",
+      "packageId": "pkg-002",
+      "packageName": "Freedom 20GB",
+      "operator": "Indosat",
+      "price": 68000,
+      "status": "processing",
+      "channel": "Assisted Sales",
+      "createdAt": "2026-05-25T15:32:00.000Z"
+    },
+    {
+      "id": "trx-003",
+      "customerId": "cust-002",
+      "customerName": "Rizky Pratama",
+      "msisdn": "082145678901",
+      "packageId": "pkg-004",
+      "packageName": "AlwaysOn 12GB",
+      "operator": "Tri",
+      "price": 52000,
+      "status": "failed",
+      "channel": "Web Checkout",
+      "createdAt": "2026-05-25T14:48:00.000Z"
+    },
+    {
+      "customerId": "cust-002",
+      "customerName": "Rizky Pratama",
+      "msisdn": "082145678901",
+      "packageId": "pkg-003",
+      "packageName": "Xtra Combo 35GB",
+      "operator": "XL",
+      "price": 98000,
+      "status": "processing",
+      "channel": "Web Checkout",
+      "createdAt": "2026-05-25T17:29:11.986Z",
+      "id": "ZHj9K7v8YeU"
+    },
+    {
+      "customerId": "cust-002",
+      "customerName": "Rizky Pratama",
+      "msisdn": "082145678901",
+      "packageId": "pkg-003",
+      "packageName": "Xtra Combo 35GB",
+      "operator": "XL",
+      "price": 98000,
+      "status": "processing",
+      "channel": "Web Checkout",
+      "createdAt": "2026-05-25T17:29:13.103Z",
+      "id": "nNelgX8sXAo"
+    },
+    {
+      "customerId": "cust-002",
+      "customerName": "Rizky Pratama",
+      "msisdn": "082145678901",
+      "packageId": "pkg-003",
+      "packageName": "Xtra Combo 35GB",
+      "operator": "XL",
+      "price": 98000,
+      "status": "processing",
+      "channel": "Web Checkout",
+      "createdAt": "2026-05-25T17:29:13.457Z",
+      "id": "a_cPVt5ECcM"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
